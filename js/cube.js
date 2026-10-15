@@ -8,7 +8,7 @@ class Cube {
     this.node.className = "enemy"
 
     // position and dimensions
-    this.x = 350;
+    this.x = 450;
     this.y = posY;
     this.width = width;
     this.height = height;
@@ -24,7 +24,8 @@ class Cube {
     this.node.style.top = `${this.y}px`
     this.node.style.left = `${this.x}px`
 
-    this.speed = 3
+    this.speed = 4
+    this.isEvil = true
 
   }
 
